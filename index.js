@@ -1,6 +1,6 @@
 module.exports = {
     env: { browser: true, es2021: true, node: true },
-    extends: ["eslint-config-airbnb"].map(require.resolve),
+    extends: ["eslint-config-airbnb", "eslint-config-airbnb/hooks"].map(require.resolve),
     parserOptions: {
         ecmaVersion: 2021,
         sourceType: "module"
@@ -21,7 +21,7 @@ module.exports = {
         {
             files: ["**/*.{ts,tsx}"],
             env: { browser: true, es2020: true, node: true },
-            extends: ["eslint-config-airbnb-typescript"].map(require.resolve),
+            extends: ["eslint-config-airbnb-typescript", "eslint-config-airbnb/hooks"].map(require.resolve),
             parser: "@typescript-eslint/parser",
             parserOptions: {
                 ecmaVersion: 2021,

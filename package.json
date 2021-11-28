@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-m51-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My eslint config for react",
   "main": "index.js",
   "scripts": {
@@ -22,15 +22,15 @@
   "homepage": "https://github.com/M-51/eslint-config-m51-react#readme",
   "dependencies": {
     "@typescript-eslint/parser": "^5.4.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-typescript": "^12.3.1"
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-config-airbnb-typescript": "^16.0.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "eslint": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
   }
 }

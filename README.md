@@ -1,5 +1,5 @@
-# eslint-config-m51
-My eslint config
+# eslint-config-m51-react
+My eslint react config
 
 
 ## Usage

@@ -4,4 +4,4 @@ My eslint config
 
 ## Usage
 
-* create .eslintrc file with: `{ "extends": ["eslint-config-m51"], "root": true }`
+* create .eslintrc file with: `{ "extends": ["eslint-config-m51-react"], "root": true }`

@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-m51-react",
+  "version": "0.1.0",
+  "description": "My eslint config for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-51/eslint-config-m51-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "M-51",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/M-51/eslint-config-m51-react/issues"
+  },
+  "homepage": "https://github.com/M-51/eslint-config-m51-react#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}

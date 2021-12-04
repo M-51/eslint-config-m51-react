@@ -6,11 +6,15 @@ module.exports = {
         sourceType: "module"
     },
     rules: {
-        indent: ["error", 4],
-        "max-len": ["error", { code: 150, ignoreStrings: true, ignoreTemplateLiterals: true, ignoreComments: true }],
+        "indent": ["error", 4],
+        "max-len": ["error", { "code": 150, "ignoreStrings": true, "ignoreTemplateLiterals": true, "ignoreComments": true }],
         "no-restricted-syntax": ["off", "ForOfStatement"],
-        "import/no-extraneous-dependencies": ["error", {devDependencies: true}],
-        "import/extensions": ["error", "ignorePackages"]
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+        "import/extensions": ["error", "ignorePackages"],
+        "react/require-default-props": ["off"],
+        "react/jsx-indent" : ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/function-component-definition": [2, { "namedComponents": "function-declaration" }]
     },
     ignorePatterns: [
         "dist/**/*",
@@ -38,7 +42,8 @@ module.exports = {
                 "import/extensions": ["error", "ignorePackages"],
                 "react/require-default-props": ["off"],
                 "react/jsx-indent" : ["error", 4],
-                "react/jsx-indent-props": ["error", 4]
+                "react/jsx-indent-props": ["error", 4],
+                "react/function-component-definition": [2, { "namedComponents": "function-declaration" }]
             }
         }
     ]

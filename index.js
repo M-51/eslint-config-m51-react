@@ -20,7 +20,7 @@ module.exports = {
     overrides: [
         {
             files: ["**/*.{ts,tsx}"],
-            env: { browser: true, es2020: true, node: true },
+            env: { browser: true, es2021: true, node: true },
             extends: ["eslint-config-airbnb-typescript", "eslint-config-airbnb/hooks"].map(require.resolve),
             parser: "@typescript-eslint/parser",
             parserOptions: {
